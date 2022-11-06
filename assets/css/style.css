@@ -11,6 +11,10 @@
     font-weight: 500;
 }
 
+/* common design */
+.vert-line{
+    border-left: 3px solid rgb(131, 161, 161);
+}
 /* jumbotron bg image */
 #bg-clr{
     background-color:rgb(131, 161, 161);

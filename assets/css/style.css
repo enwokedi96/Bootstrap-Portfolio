@@ -55,6 +55,11 @@ ul{
     border: 3px solid rgb(170, 192, 192);
 }
 
+/* contact me subsection */
+#contact-me{
+    padding: 10px;
+}
+
 /* footer */
 .footer{
     background-color: rgb(205, 188, 188);

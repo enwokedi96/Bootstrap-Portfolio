@@ -19,7 +19,7 @@
 /* jumbotron animated text */
 
 .jumbotron >* span::before {
-    content: "Freelancer";
+    content: "Developer";
     animation: animate infinite 3s;
     padding-left: 0px;
 }
@@ -27,7 +27,7 @@
 @keyframes animate {
 
     15% {
-        content: "Developer";
+        content: "Engineer";
         padding-left: 40px;
     }
 
@@ -37,7 +37,7 @@
     }
 
     90% {
-        content: "Freelancer";
+        content: "Developer";
         padding-left: 0px;
     }
 }
@@ -52,5 +52,5 @@ ul{
     padding-left: 50px;
     font-size: large;
     font-weight: 500;
-    border: 3px solid rgb(168, 160, 160);
+    border: 3px solid rgb(170, 192, 192);
 }

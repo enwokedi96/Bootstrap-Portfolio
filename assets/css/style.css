@@ -59,6 +59,11 @@ ul{
     border: 3px solid rgb(170, 192, 192);
 }
 
+/* about me subsection */
+#about-me{
+    margin-top: 25px;
+}
+
 /* contact me subsection */
 #contact-me{
     padding: 10px;

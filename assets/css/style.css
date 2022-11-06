@@ -1,6 +1,11 @@
-/* jumbotron bg image */
+/* nav items */
+#nav-img{
+    background-image: url('/assets/images/02-hero-bg.jpg');
+}
+
+/* jumbotron bg imsage */
 #bg-clr{
-    background-color:rgb(59, 219, 219);
+    background-color:rgb(131, 161, 161);
 }
 
 /* jumbotron animated text */

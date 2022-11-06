@@ -64,6 +64,14 @@ ul{
     margin-top: 25px;
 }
 
+.no-border-left{
+    border-left: none;
+}
+
+.no-border-right{
+    border-right: none;
+}
+
 /* contact me subsection */
 #contact-me{
     padding: 10px;

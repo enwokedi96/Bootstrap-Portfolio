@@ -2,8 +2,16 @@
 #nav-img{
     background-image: url('/assets/images/02-hero-bg.jpg');
 }
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+}
+.nav-item{
+    font-size: x-large;
+    font-weight: 500;
+}
 
-/* jumbotron bg imsage */
+/* jumbotron bg image */
 #bg-clr{
     background-color:rgb(131, 161, 161);
 }

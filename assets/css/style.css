@@ -47,3 +47,10 @@
 ul{
     list-style-type: none;
 }
+
+.skill-subheading{
+    padding-left: 50px;
+    font-size: large;
+    font-weight: 500;
+    border: 3px solid rgb(168, 160, 160);
+}

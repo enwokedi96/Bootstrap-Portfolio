@@ -72,7 +72,31 @@ ul{
     border-right: none;
 }
 
-/* contact me subsection */
+/*hobby subsection: image insertions and style*/
+.hobby-images{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .circle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    top: 20px;
+    margin-bottom: 10px;
+    border: solid rgb(126, 177, 177) 3px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+/* contact-me subsection */
 #contact-me{
     padding: 10px;
 }

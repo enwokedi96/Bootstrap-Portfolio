@@ -1,7 +1,7 @@
 /* body specific settings */
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0.25rem;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:larger;
     transition: 0.5s;

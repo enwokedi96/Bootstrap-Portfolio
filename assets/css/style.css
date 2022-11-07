@@ -46,6 +46,40 @@
     }
 }
 
+/* work section: coding project ids */
+#init-portfolio{
+    background-image: url('../images/02-portfolio-1.jpg');
+    background-size: cover;
+}
+#refactor{
+    background-image: url('../images/02-portfolio-4.jpg');
+    background-size: cover;
+  }
+#bio{
+    background-image: url('../images/02-portfolio-3.jpg');
+    background-size: contain;
+  }
+#travelCalifornia{
+    background-image: url('../images/02-portfolio-3.jpg');
+    background-size: contain;
+}  
+
+#init-portfolio,
+#refactor,
+#bio,
+#travelCalifornia {
+  border: 3px solid rgb(131, 161, 161);
+  cursor: pointer;
+  opacity: 50%;
+}
+
+#portfolio:hover,
+#refactor:hover,
+#bio:hover,
+#travelCalifornia {
+  opacity: 1;
+}
+
 /* skill section */
 #skill{
     margin: 0px auto;

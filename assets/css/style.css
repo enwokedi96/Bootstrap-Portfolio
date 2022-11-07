@@ -1,3 +1,10 @@
+/* root params */
+:root{
+    --first-row: 400px;
+    --second-row: 200px;
+    --third-row: 150px;
+}
+
 /* nav items */
 #nav-img{
     background-image: url('/assets/images/02-hero-bg.jpg');
@@ -50,29 +57,35 @@
 #init-portfolio{
     background-image: url('../images/02-portfolio-1.jpg');
     background-size: cover;
-    height: 400px;
+    height: var(--second-row);
 }
 #refactor{
     background-image: url('../images/02-portfolio-4.jpg');
     background-size: cover;
+    height: var(--second-row);
   }
 #bio{
     background-image: url('../images/02-portfolio-3.jpg');
     background-size: contain;
+    height: var(--third-row);
   }
 #travelCalifornia{
     background-image: url('../images/hotel-california.PNG');
     background-size: contain;
+    height: var(--first-row);
 }  
 #rocknroll{
-    
+    background-image: url('../images/rockOn.jpg');
+    background-size: contain;
+    height: var(--third-row);
 }
 
 
 #init-portfolio,
 #refactor,
 #bio,
-#travelCalifornia {
+#travelCalifornia,
+#rocknroll {
   border: 3px solid rgb(131, 161, 161);
   cursor: pointer;
   opacity: 60%;
@@ -81,7 +94,8 @@
 #init-portfolio:hover,
 #refactor:hover,
 #bio:hover,
-#travelCalifornia {
+#travelCalifornia:hover,
+#rocknroll:hover {
   opacity: 1;
 }
 

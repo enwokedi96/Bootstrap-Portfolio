@@ -1,9 +1,51 @@
-/* body sspecific settings */
+/* body specific settings */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size:larger;
+    transition: 0.5s;
+  }
+
+/* day-night toggle, adapted from https://bootsnipp.com/snippets/lGW9j  */
+  body.night
+  {
+      background: #070f13;
+  }
+.toggle
+  {
+      position: absolute;
+      top: 160px;
+      right: 50px;
+      background: #fff;
+      border: 1px solid #00151f;
+      width: 46px;
+      height: 20px;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: 0.5s;
+  }
+  .toggle.active
+  {
+      background:#070f13;
+      border: 1px solid #fff;
+  }
+  .toggle:before
+  {
+      content: '';
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      width: 16px;
+      height: 16px;
+      background: #0c2a38;
+      border-radius: 50%;
+      transition: 0.5s;
+  }
+  .toggle.active:before
+  {
+      left: 27px;
+      background: #fff;
   }
 
 /* root params */

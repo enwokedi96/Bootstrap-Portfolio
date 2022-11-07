@@ -10,14 +10,15 @@ body {
 /* day-night toggle, adapted from https://bootsnipp.com/snippets/lGW9j  */
   body.night
   {
-      background: #070f13;
+      background-color: #070f13;
+      color: #fff;
   }
 .toggle
   {
       position: absolute;
       top: 160px;
       right: 50px;
-      background: #fff;
+      background-color: #fff;
       border: 1px solid #00151f;
       width: 46px;
       height: 20px;
@@ -27,8 +28,9 @@ body {
   }
   .toggle.active
   {
-      background:#070f13;
+      background-color:#070f13;
       border: 1px solid #fff;
+      color: #000;
   }
   .toggle:before
   {
@@ -45,7 +47,8 @@ body {
   .toggle.active:before
   {
       left: 27px;
-      background: #fff;
+      background-color: #fff;
+      color: #000;
   }
 
 /* root params */
@@ -254,6 +257,7 @@ ul{
 /* footer */
 .footer{
     background-color: rgb(205, 188, 188);
+    color: #000!important;
     display: flex;
     align-items: center;
     justify-content: center;

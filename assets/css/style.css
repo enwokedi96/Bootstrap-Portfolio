@@ -52,6 +52,12 @@ body {
       color: #000;
   }
 
+  #mode{
+    position: relative;
+    left: 50px;
+    top: -5px;
+  }
+
 /* root params */
 :root{
     /* height(s) of work cells */
@@ -61,7 +67,6 @@ body {
     /* inter-section spacing */
     --section-spacings: 50px; 
 }
-
 
 /* nav items */
 #nav-img{

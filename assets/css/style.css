@@ -20,12 +20,16 @@ body{
     font-size: 35px;
     font-weight: 600;
 }
-.nav-item{
-    font-size: x-large;
-    font-weight: 500;
-    outline-width: 500px;
-    outline-color: black;
-}
+
+nav .navbar-nav li a{
+    color: rgba(234, 226, 226, 0.9)!important;
+    font-weight: 500!important;
+    outline-color: rgb(2, 16, 16)!important;
+    font-size: 28px;
+    border: 3px solid rgb(80, 106, 106);
+    border-radius: 15px;
+    background-color: rgb(131, 161, 161);
+    }
 
 /* common design */
 .vert-line{

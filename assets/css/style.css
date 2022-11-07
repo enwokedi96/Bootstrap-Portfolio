@@ -8,6 +8,10 @@
     --section-spacings: 50px; 
 }
 
+body{
+    font-size:larger;
+}
+
 
 /* nav items */
 #nav-img{

@@ -15,7 +15,7 @@
     <body> 
 
         <!-- Navigation and nav bar -->
-        <section>
+        <section id="mainNav">
             <nav class="navbar navbar-expand-lg navbar-dark" id="nav-img">
                 <a class="navbar-brand text-light" href="#">Ezechukwu I. Nwokedi</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
 
         <!-- Jumbotron: image, name, single line info (I am a freelancer->
             I am a frontend developer-> I am an engineer) - preferrably with animated transitioning -->
-        <section>
+        <section id="hero">
             <div class="jumbotron jumbotron-fluid" id="bg-clr">
                 <div class="container">
                     <div class="row align-items-center">
@@ -121,7 +121,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-3 col-lg-3 vert-line"><h3>Skills</h3></div>
-                    <div class="col-sm-12 col-md-9 col-lg-9"><p>Please refer to CV below for more details.</p></div>
+                    <div class="col-sm-12 col-md-9 col-lg-9"></div>
                 </div>
                 <!-- Columns are always 50% wide, on mobile and desktop -->
                 <div class="row">
@@ -152,8 +152,12 @@
                     </div>
                     <div class="col-2"></div>
                 </div>
+            </div>
+        </section>
 
-                <!-- cv sub - container -->
+        <!-- cv sub - container -->
+        <section id="CV">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-3 vert-line" id="cv"><h3> Résumé</h3></div>
                     <div class="col-sm-12 col-md-9" id="cv">
@@ -165,9 +169,9 @@
         </section>
 
         <!-- About Me (on top) and contact details (git,fb,ig,...) -->
-        <section>
+        <section id="about-me">
             <div class="container">
-                <div class="row justify-content-start" id="about-me">
+                <div class="row justify-content-start" id="about-me-sub">
                     <div class="col-sm-12 col-md-3 col-lg-3 vert-line"><h3>About Me</h3></div>
                     <div class="col-md-12 col-md-9 col-lg-9">
                         <p>
@@ -200,10 +204,10 @@
         </section>
         
         <!-- contact me section: icons and text -->
-        <section>
+        <section id="contact-me">
             <div class="container">   
-                <div class="row vert-line" id="contact-me">
-                    <div class="col-sm-12 col-md-3 col-lg-3"><h3>Contact Me</h3></div>
+                <div class="row" id="contact-me-sub">
+                    <div class="col-sm-12 col-md-3 col-lg-3 vert-line"><h3>Contact Me</h3></div>
                     <div class="col-sm-12 col-md-9 col-lg-9">
                         <p>Click icon below to contact me via any of these avenues</p> 
                     </div> 
@@ -239,7 +243,7 @@
         </section>
 
         <!-- Footer -->
-        <section>
+        <section id="-footer">
             <div class="footer">
                     <p><b>🚀 Designed and built with ❤️ by E.I. Nwokedi 🚀</b></p>
                     <p> Licensed by <b><a href="LICENSE">MIT</a></b></p>

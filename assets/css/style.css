@@ -1,9 +1,13 @@
 /* root params */
 :root{
+    /* height(s) of work cells */
     --first-row: 400px;
     --second-row: 200px;
     --third-row: 150px;
+    /* inter-section spacing */
+    --section-spacings: 50px; 
 }
+
 
 /* nav items */
 #nav-img{
@@ -112,7 +116,7 @@
     justify-content: center;
     align-items: center;
   }
-  #portfolio .code-box{
+#portfolio .code-box{
     top:75%;
   }
 
@@ -133,7 +137,8 @@ ul{
 }
 
 /* about me subsection */
-#about-me{
+#about-me-sub,
+#contact-me-sub{
     margin-top: 25px;
 }
 
@@ -152,7 +157,7 @@ ul{
     padding-right: 30px;
     text-align: center;
   }
-  .circle {
+.circle {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -173,9 +178,6 @@ ul{
 /* #contact-me{
     padding: 10px;
 } */
-#contact-me-txt{
-    padding-right: 0px;
-}
 
 /* footer */
 .footer{
@@ -188,4 +190,14 @@ ul{
 
 b{
     font-weight: 700;
+}
+
+/* spacing between all sections */
+#hero,
+#works,
+#skill,
+#CV
+#about-me,
+#contact-me{
+    margin-bottom: var(--section-spacings);
 }

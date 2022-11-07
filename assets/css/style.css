@@ -107,8 +107,8 @@
 .code-box{
     position: relative;
     top: 50%; right: 3px;
-    border: 3px solid peru;
-    height: 50px;
+    border: 3px solid rgb(109, 188, 188);
+    max-height: 500px;
     width: 175px;
     background-color: rgb(205, 158, 111);
     font-style: italic;
@@ -119,6 +119,13 @@
 #portfolio .code-box{
     top:75%;
   }
+
+  /* stretch invisible membrane of work links over 
+  full cell */
+.invisibleLink {
+    display: block;
+    height: 100%; width: 100%;
+}
 
 /* skill section */
 #skill{

@@ -9,7 +9,7 @@ Visit the live website [here](https://enwokedi96.github.io/Bootstrap-Portfolio/)
 
 The screenshot of the webpage are visualised below: 
 
-<img alt="webpage visuals" src="/assets/images/full-webpage-part-1.png" width=360/> <img alt="webpage visuals" src="/assets/images/full-webpage-part-2.png" width=360/>
+<img alt="webpage visuals" src="/assets/images/full-webpage-part-1.png" width=400/> <img alt="webpage visuals" src="/assets/images/full-webpage-part-2.png" width=400/>
 
 Top of the page provides navigation tools allowing user to easily access sections in the body and at the bottom, there is a return to top button.
 A day-night toggler is available on the bottom-right directly below the banner (see image of night version [here](https://raw.githubusercontent.com/enwokedi96/Bootstrap-Portfolio/main/assets/images/full-webpage-dark.png))

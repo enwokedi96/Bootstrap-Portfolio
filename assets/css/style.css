@@ -64,13 +64,13 @@ body {
     background-image: url('/assets/images/02-hero-bg.jpg');
 }
 .navbar-brand{
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 39px;
+    font-weight: 700;
 }
 
 nav .navbar-nav li a{
     color: rgba(234, 226, 226, 0.9)!important;
-    font-weight: 500!important;
+    font-weight: 600!important;
     outline-color: rgb(2, 16, 16)!important;
     font-size: 28px;
     border: 3px solid rgb(80, 106, 106,0.5);

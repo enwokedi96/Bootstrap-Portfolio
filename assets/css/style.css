@@ -3,7 +3,7 @@ body {
     margin: 0.25rem;
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:larger;
+    font-size:large;
     transition: 0.5s;
   }
 
@@ -61,7 +61,7 @@ body {
 
 /* nav items */
 #nav-img{
-    background-image: url('/assets/images/02-hero-bg.jpg');
+    background-image: url('../images/02-hero-bg.jpg');
 }
 .navbar-brand{
     font-size: 36px;

@@ -216,10 +216,10 @@ ul{
 }
 
 .skill-subheading{
-    padding-left: 50px;
     font-size: large;
     font-weight: 500;
     border: 3px solid rgb(170, 192, 192);
+    text-align: center;
 }
 
 /* about me subsection */

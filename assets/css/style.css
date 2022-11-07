@@ -50,7 +50,7 @@
 #init-portfolio{
     background-image: url('../images/02-portfolio-1.jpg');
     background-size: cover;
-    height: 600px;
+    height: 400px;
 }
 #refactor{
     background-image: url('../images/02-portfolio-4.jpg');
@@ -61,9 +61,10 @@
     background-size: contain;
   }
 #travelCalifornia{
-    background-image: url('../images/02-portfolio-3.jpg');
+    background-image: url('../images/hotel-california.PNG');
     background-size: contain;
 }  
+
 
 #init-portfolio,
 #refactor,
@@ -71,7 +72,7 @@
 #travelCalifornia {
   border: 3px solid rgb(131, 161, 161);
   cursor: pointer;
-  opacity: 50%;
+  opacity: 60%;
 }
 
 #init-portfolio:hover,
@@ -96,7 +97,6 @@
   }
   #portfolio .code-box{
     top:75%;
-    width: 200px;
   }
 
 /* skill section */
